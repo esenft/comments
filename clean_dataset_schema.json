@@ -1,0 +1,98 @@
+{
+  "dataset": "clean_dataset.json",
+  "record_format": "array of objects",
+  "columns": [
+    {
+      "name": "rowid",
+      "type": "integer",
+      "description": "SQLite row identifier used as stable export order and record id."
+    },
+    {
+      "name": "author",
+      "type": "string|null",
+      "description": "YouTube comment author handle."
+    },
+    {
+      "name": "channel",
+      "type": "string|null",
+      "description": "YouTube channel id of the commenter."
+    },
+    {
+      "name": "cid",
+      "type": "string|null",
+      "description": "Unique YouTube comment id."
+    },
+    {
+      "name": "heart",
+      "type": "boolean",
+      "description": "Whether the channel hearted the comment (boolean)."
+    },
+    {
+      "name": "photo",
+      "type": "string|null",
+      "description": "Commenter profile photo URL."
+    },
+    {
+      "name": "replies",
+      "type": "integer",
+      "description": "Number of replies on the comment (integer)."
+    },
+    {
+      "name": "reply",
+      "type": "boolean",
+      "description": "Whether this row is a reply (boolean)."
+    },
+    {
+      "name": "text",
+      "type": "string|null",
+      "description": "Comment body text."
+    },
+    {
+      "name": "time",
+      "type": "string|null",
+      "description": "Original relative time string from source (for example '2 years ago')."
+    },
+    {
+      "name": "time_parsed",
+      "type": "number|null",
+      "description": "Unix timestamp (seconds) parsed from source metadata."
+    },
+    {
+      "name": "votes",
+      "type": "integer",
+      "description": "Like/upvote count normalized to integer."
+    },
+    {
+      "name": "negative",
+      "type": "boolean",
+      "description": "Model label: negative sentiment (boolean)."
+    },
+    {
+      "name": "angry",
+      "type": "boolean",
+      "description": "Model label: angry/hostile tone (boolean)."
+    },
+    {
+      "name": "spam",
+      "type": "boolean",
+      "description": "Model label: spam indicator (boolean)."
+    },
+    {
+      "name": "response",
+      "type": "boolean",
+      "description": "Model label: comment requires response (boolean)."
+    },
+    {
+      "name": "responses",
+      "type": "string|null",
+      "description": "Generated creator response text, if available."
+    }
+  ],
+  "assumptions_and_decisions": [
+    "Rows are exported in ascending SQLite rowid order.",
+    "Boolean-like values (0/1/true/false/yes) are normalized to booleans.",
+    "Blank strings are normalized to null for text-like fields.",
+    "Votes are normalized to integers; K/M/B suffixes are expanded (for example 1.2K -> 1200).",
+    "Missing numeric-like fields are set to 0 for replies and votes."
+  ]
+}

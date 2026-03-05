@@ -1,0 +1,171 @@
+{
+  "total_comments_analyzed": 3000,
+  "cluster_count": 5,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "size": 606,
+      "share_of_dataset": 0.202,
+      "theme": "General Discussion",
+      "alignment": "mixed sentiment",
+      "legend_label": "C0: General Discussion [mixed sentiment]",
+      "top_terms": [
+        "sam",
+        "altman",
+        "lex",
+        "like",
+        "guy",
+        "just",
+        "voice",
+        "man",
+        "interview",
+        "looks"
+      ],
+      "label_rates": {
+        "angry_rate": 0.0083,
+        "negative_rate": 0.0198,
+        "spam_rate": 0.0,
+        "needs_response_rate": 0.0033
+      },
+      "sample_comments": [
+        "It\u2019s crazy how he kept talking and has said nothing tangible in 2,5 hrs",
+        "I just knew Altman is a gay",
+        "Sam and Elon have similar facial characteristics. Those are the facial characteristics of human super intelligence.",
+        "\u201cYou\u2019re like a charming terminator\u201d\n-Theo Von",
+        "Lex, please put Lars Blackmore on the list of people to interview, he is the ex-NASA and current SpaceX-employee responsible for developing the landing algorithms of Falcon 9 and Starship."
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 55,
+      "share_of_dataset": 0.0183,
+      "theme": "General Discussion",
+      "alignment": "mostly positive/neutral",
+      "legend_label": "C1: General Discussion [mostly positive/neutral]",
+      "top_terms": [
+        "ou",
+        "pessoa",
+        "perseguida",
+        "da",
+        "eles",
+        "reis",
+        "luto",
+        "por",
+        "parente",
+        "vermelha"
+      ],
+      "label_rates": {
+        "angry_rate": 0.0,
+        "negative_rate": 0.0,
+        "spam_rate": 0.0,
+        "needs_response_rate": 0.0
+      },
+      "sample_comments": [
+        "Os ladrao traficantes e assacinos Valdir reis Leomir reis Fernando reis Jonas campos Ezequiel fonsceca e comparsas mandado por eles usa o gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de tirar a vida da pessoa perseguida ou de parente da pessoa perseguida. O gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de beber \u00e1gua em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de beber a pessoa perseguida ou parente da pessoa perseguida ou no vel\u00f3rio da pessoa perseguida ou parente da pessoa perseguida. O Alexandre de Moraes e outros do STF Lula e janja por eles estar no poder por estrat\u00e9gia da quadrilha aqui dentro de Reserva do Caba\u00e7al pra facilitar pra eles continuar praticando seus  crimes e ficando impune e regredindo o Brasil e o mundo todo.",
+        "Os ladrao traficantes e assacinos Valdir reis Leomir reis Fernando reis Jonas campos Ezequiel fonsceca e comparsas mandado por eles usa o gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de tirar a vida da pessoa perseguida ou de parente da pessoa perseguida. O gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de beber \u00e1gua em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de beber a pessoa perseguida ou parente da pessoa perseguida ou no vel\u00f3rio da pessoa perseguida ou parente da pessoa perseguida. O Alexandre de Moraes e outros do STF Lula e janja por eles estar no poder por estrat\u00e9gia da quadrilha aqui dentro de Reserva do Caba\u00e7al pra facilitar pra eles continuar praticando seus  crimes e ficando impune e regredindo o Brasil e o mundo todo.",
+        "Os ladrao traficantes e assacinos Valdir reis Leomir reis Fernando reis Jonas campos Ezequiel fonsceca e comparsas mandado por eles usa o gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de tirar a vida da pessoa perseguida ou parente da pessoa perseguida. O gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de beber a pessoa perseguida ou parente da pessoa perseguida ou  no vel\u00f3rio da pessoa perseguida ou Parente da pessoa perseguida. Alexandre de Moraes e outros do STF Lula e janja por eles estar no poder por estrat\u00e9gia da quadrilha aqui dentro de Reserva do Caba\u00e7al pra facilitar pra eles continuar praticando seus crimes e ficando impune e regredindo o Brasil e o mundo todo m",
+        "Os ladrao traficantes e assacinos Valdir reis Leomir reis Fernando reis Jonas campos Ezequiel fonsceca e comparsas mandado por eles usa o gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de tirar a vida da pessoa perseguida ou de parente da pessoa perseguida ou beber a pessoa perseguida ou parente da pessoa perseguida ou no vel\u00f3rio da pessoa perseguida ou de parente da pessoa perseguida. O Alexandre de Moraes e outros do STF Lula e janja por eles estar no poder por estrat\u00e9gia da quadrilha aqui dentro de Reserva do Caba\u00e7al pra facilitar pra eles continuar praticando seus crimes e ficando impune e regredindo o Brasil e o mundo todo.",
+        "Os ladrao traficantes e assacinos Valdir reis Leomir reis Fernando reis Jonas campos Ezequiel fonsceca e comparsas mandado por eles usa o gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de tirar a vida da pessoa perseguida ou de parente da pessoa perseguida. O gesto bebendo algo em dire\u00e7\u00e3o a algu\u00e9m refere que eles tem planos de beber a pessoa perseguida ou parente da pessoa perseguida ou no vel\u00f3rio da pessoa perseguida ou de parente da pessoa perseguida  O Alexandre de Moraes e outros do STF Lula e janja por eles \u00e9 estar no poder por estrat\u00e9gia da quadrilha aqui dentro de Reserva do Caba\u00e7al pra facilitar pra eles continuar praticando seus crimes e ficando impune e regredindo o Brasil e o mundo todo."
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 612,
+      "share_of_dataset": 0.204,
+      "theme": "AI Discussion",
+      "alignment": "mixed sentiment",
+      "legend_label": "C2: AI Discussion [mixed sentiment]",
+      "top_terms": [
+        "ai",
+        "like",
+        "people",
+        "human",
+        "just",
+        "intelligence",
+        "humans",
+        "know",
+        "think",
+        "make"
+      ],
+      "label_rates": {
+        "angry_rate": 0.0098,
+        "negative_rate": 0.0147,
+        "spam_rate": 0.0,
+        "needs_response_rate": 0.0065
+      },
+      "sample_comments": [
+        "I\u2019d yield to artificial intelligence",
+        "23:03 quite nasty and kind of dirty form Mr Altman, to present as a problem the number of characters and NOT the barriers they implemented that had as a result a difference in characters numbers.. The problem was never about having more characters in one political party, the problem is the refusal to discuss not political correct, left leaning, pg 12 ideas. The problem is that the AI is worried more about not make you a \"nazi\" instead of worried on provide you with a truth answer..",
+        "AI is great, tech is great although the real envy shouldn't be the richest of this world but the envy of those resting in a peaceful afterlife as new unexpected conflicts and problems can occur before the day even ends.",
+        "AI is great as China won't allow TikTok much less Chatgpt. China, N korea, Russia will get left behind  and the West will takeover",
+        "Hi Lex, I'm a big fan of you and your work. Love everything you do, keep being you. \nThank you.\nP.s. The robots are coming.\nThe Democratization of the Automation of automation is coming. :)"
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "size": 724,
+      "share_of_dataset": 0.2413,
+      "theme": "Praise/Approval",
+      "alignment": "mostly positive/neutral",
+      "legend_label": "C3: Praise/Approval [mostly positive/neutral]",
+      "top_terms": [
+        "lex",
+        "thank",
+        "great",
+        "thanks",
+        "like",
+        "just",
+        "interview",
+        "love",
+        "good",
+        "https"
+      ],
+      "label_rates": {
+        "angry_rate": 0.0,
+        "negative_rate": 0.0138,
+        "spam_rate": 0.0,
+        "needs_response_rate": 0.011
+      },
+      "sample_comments": [
+        "Mister Killer",
+        "This made me feel like the main character.",
+        "The clarity here is off the charts!",
+        "I\u2019m stunned by how much sense this makes now!",
+        "Thank u verry to all believer..in specially, the 2 guy speakers.,i know they try to understand what happened, but all i can say the truet is exploring...the true colors"
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "size": 1003,
+      "share_of_dataset": 0.3343,
+      "theme": "AI Discussion",
+      "alignment": "mixed sentiment",
+      "legend_label": "C4: AI Discussion [mixed sentiment]",
+      "top_terms": [
+        "people",
+        "chatgpt",
+        "like",
+        "gpt",
+        "just",
+        "think",
+        "world",
+        "don",
+        "human",
+        "know"
+      ],
+      "label_rates": {
+        "angry_rate": 0.008,
+        "negative_rate": 0.0269,
+        "spam_rate": 0.001,
+        "needs_response_rate": 0.0179
+      },
+      "sample_comments": [
+        "Here are the timestamps. Please check out our sponsors to support this podcast.\n0:00 - Introduction & sponsor mentions:\n- NetSuite: http://netsuite.com/lex to get free product tour\n- SimpliSafe: https://simplisafe.com/lex\n- ExpressVPN: https://expressvpn.com/lexpod to get 3 months free\n4:36 - GPT-4\n16:02 - Political bias\n23:03 - AI safety\n43:43 - Neural network size\n47:36 - AGI\n1:09:05 - Fear\n1:11:14 - Competition\n1:13:33 - From non-profit to capped-profit\n1:16:54 - Power\n1:22:06 - Elon Musk\n1:30:32 - Political pressure\n1:48:46 - Truth and misinformation\n2:01:09 - Microsoft\n2:05:09 - SVB bank collapse\n2:10:00 - Anthropomorphism\n2:14:03 - Future applications\n2:17:54 - Advice for young people\n2:20:33 - Meaning of life",
+        "Does GPT-4 hold thoughts in its mind that it doesn't share or articulate?  This would be one of the hallmarks of a conscious mind.",
+        "I want to say, protic our soul....everyone can make mastake.no one is perfect...but still stand da  truet..the test of God is done. .thank u very much..\u2764\u2764\u2764 i salute u 2 guys...always analyzed the situations .vase on research.or news ...i know ..how its hard....if u make good thing 10. They don't.  know...but  u makes 1 mastake .they judge you. To much  sometimes feelings destroy...but i still respect.thank for allowing me.My God bless u.",
+        "I know that news coming out not completely...after that words theres explainition,together. Cut,anyway i still respic what they exploring..but my Lord not alloweding ..who wants to asking  me to fight....im not .  That person made the news   v s  to  heaven ,",
+        "Training any grouping creating algorithm is fraught with gigantic \"error bars\". The tendency to jump trend is the bain of hands off trimming/limiting/guiding iterations. Add inherent \"desired\" response rewarding, some call it synching or some such, the result is the destructive echo chamber.\n It is a divisive, polarizing societal poison. The internet also creates the echo chamber due to connectivity pretty much limited to like minds. Another forcing pressure is political. \nPump in manipulated information and voila antagonistic schism, divide and conquer. \nSomehow the  power and control must be diluted or the America as the beacon of self-governance, liberty, and opportunity will perish."
+      ]
+    }
+  ]
+}

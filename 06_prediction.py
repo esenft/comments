@@ -79,9 +79,9 @@ def ask_ollama_for_labels(host: str, model: str, prompt: str, request_timeout: i
 	except urllib.error.HTTPError as error:
 		if error.code != 404:
 			error_body = error.read().decode("utf-8", errors="replace")
-			raise SystemExit(f"Ollama request failed ({error.code}): {error_body}") from error
+			raise RuntimeError(f"Ollama request failed ({error.code}): {error_body}") from error
 	except urllib.error.URLError as error:
-		raise SystemExit("Could not reach Ollama. Start it with: ollama serve") from error
+		raise RuntimeError("Could not reach Ollama. Start it with: ollama serve") from error
 
 	try:
 		body = post_json(
@@ -103,7 +103,7 @@ def ask_ollama_for_labels(host: str, model: str, prompt: str, request_timeout: i
 				return parse_labels(text)
 	except urllib.error.HTTPError as error:
 		error_body = error.read().decode("utf-8", errors="replace")
-		raise SystemExit(
+		raise RuntimeError(
 			f"Ollama request failed ({error.code}): {error_body}. "
 			f"If needed, run: ollama pull {model}"
 		) from error
@@ -191,6 +191,7 @@ def main() -> None:
 			return
 
 		target_count = len(comments)
+		updated_count = 0
 		for index, (rowid, comment_text) in enumerate(comments, start=1):
 			text_value = comment_text or ""
 			prompt = prompt_template.replace("{{COMMENT_TEXT}}", text_value)
@@ -229,13 +230,18 @@ def main() -> None:
 					rowid,
 				),
 			)
+			updated_count += 1
 
 			if index % args.progress_every == 0 or index == target_count:
 				print(f"Classified {index}/{target_count} comments...", flush=True)
 
 		connection.commit()
 
-	print(f"Updated {len(comments)} comments in '{args.database}' table '{args.table}'.")
+	skipped_count = target_count - updated_count
+	print(
+		f"Classification complete. Updated {updated_count}/{target_count} comments "
+		f"in '{args.database}' table '{args.table}' (skipped: {skipped_count})."
+	)
 
 
 if __name__ == "__main__":

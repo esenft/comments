@@ -1,1 +1,7 @@
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+sentence-transformers
 youtube-comment-downloader

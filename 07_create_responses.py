@@ -92,9 +92,9 @@ def ask_ollama_for_response(host: str, model: str, prompt: str, request_timeout:
 	except urllib.error.HTTPError as error:
 		if error.code != 404:
 			error_body = error.read().decode("utf-8", errors="replace")
-			raise SystemExit(f"Ollama request failed ({error.code}): {error_body}") from error
+			raise RuntimeError(f"Ollama request failed ({error.code}): {error_body}") from error
 	except urllib.error.URLError as error:
-		raise SystemExit("Could not reach Ollama. Start it with: ollama serve") from error
+		raise RuntimeError("Could not reach Ollama. Start it with: ollama serve") from error
 
 	try:
 		body = post_json(
@@ -115,7 +115,7 @@ def ask_ollama_for_response(host: str, model: str, prompt: str, request_timeout:
 				return text
 	except urllib.error.HTTPError as error:
 		error_body = error.read().decode("utf-8", errors="replace")
-		raise SystemExit(
+		raise RuntimeError(
 			f"Ollama request failed ({error.code}): {error_body}. "
 			f"If needed, run: ollama pull {model}"
 		) from error
@@ -184,6 +184,7 @@ def main() -> None:
 			return
 
 		total = len(rows)
+		updated_count = 0
 		for index, (rowid, comment_text) in enumerate(rows, start=1):
 			prompt = prompt_template.replace("{{COMMENT_TEXT}}", comment_text or "")
 
@@ -212,13 +213,18 @@ def main() -> None:
 				f"UPDATE {quote_identifier(args.table)} SET responses = ? WHERE rowid = ?",
 				(result, rowid),
 			)
+			updated_count += 1
 
 			if index % args.progress_every == 0 or index == total:
 				print(f"Generated {index}/{total} responses...", flush=True)
 
 		connection.commit()
 
-	print(f"Stored generated responses for up to {len(rows)} comments.")
+	skipped_count = total - updated_count
+	print(
+		f"Response generation complete. Stored {updated_count}/{total} responses "
+		f"(skipped: {skipped_count})."
+	)
 
 
 if __name__ == "__main__":

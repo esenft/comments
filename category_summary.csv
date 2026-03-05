@@ -1,0 +1,15 @@
+group,category,count,percentage_of_total
+label,angry,0,0.00
+label,negative,0,0.00
+label,spam,0,0.00
+label,needs_response,0,0.00
+thematic,ethics_safety_governance,1,20.00
+thematic,questions_clarification,0,0.00
+thematic,praise_support,0,0.00
+thematic,criticism_complaint,0,0.00
+ethics_subcategory,alignment,0,0.00
+ethics_subcategory,censorship_limits,0,0.00
+ethics_subcategory,morality_ethics,0,0.00
+ethics_subcategory,bias_fairness,1,20.00
+ethics_subcategory,privacy_surveillance,0,0.00
+ethics_subcategory,safety_harm,1,20.00
