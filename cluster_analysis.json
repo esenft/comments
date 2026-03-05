@@ -89,9 +89,9 @@
       ],
       "label_rates": {
         "angry_rate": 0.0098,
-        "negative_rate": 0.0147,
+        "negative_rate": 0.0163,
         "spam_rate": 0.0,
-        "needs_response_rate": 0.0065
+        "needs_response_rate": 0.0098
       },
       "sample_comments": [
         "I\u2019d yield to artificial intelligence",
@@ -106,8 +106,8 @@
       "size": 724,
       "share_of_dataset": 0.2413,
       "theme": "Praise/Approval",
-      "alignment": "mostly positive/neutral",
-      "legend_label": "C3: Praise/Approval [mostly positive/neutral]",
+      "alignment": "mixed sentiment",
+      "legend_label": "C3: Praise/Approval [mixed sentiment]",
       "top_terms": [
         "lex",
         "thank",
@@ -122,7 +122,7 @@
       ],
       "label_rates": {
         "angry_rate": 0.0,
-        "negative_rate": 0.0138,
+        "negative_rate": 0.0152,
         "spam_rate": 0.0,
         "needs_response_rate": 0.011
       },
@@ -155,9 +155,9 @@
       ],
       "label_rates": {
         "angry_rate": 0.008,
-        "negative_rate": 0.0269,
+        "negative_rate": 0.0279,
         "spam_rate": 0.001,
-        "needs_response_rate": 0.0179
+        "needs_response_rate": 0.0189
       },
       "sample_comments": [
         "Here are the timestamps. Please check out our sponsors to support this podcast.\n0:00 - Introduction & sponsor mentions:\n- NetSuite: http://netsuite.com/lex to get free product tour\n- SimpliSafe: https://simplisafe.com/lex\n- ExpressVPN: https://expressvpn.com/lexpod to get 3 months free\n4:36 - GPT-4\n16:02 - Political bias\n23:03 - AI safety\n43:43 - Neural network size\n47:36 - AGI\n1:09:05 - Fear\n1:11:14 - Competition\n1:13:33 - From non-profit to capped-profit\n1:16:54 - Power\n1:22:06 - Elon Musk\n1:30:32 - Political pressure\n1:48:46 - Truth and misinformation\n2:01:09 - Microsoft\n2:05:09 - SVB bank collapse\n2:10:00 - Anthropomorphism\n2:14:03 - Future applications\n2:17:54 - Advice for young people\n2:20:33 - Meaning of life",

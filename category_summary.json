@@ -1,23 +1,23 @@
 {
-  "total_comments": 5,
+  "total_comments": 11192,
   "label_categories": {
-    "angry": 0,
-    "negative": 0,
-    "spam": 0,
-    "needs_response": 0
+    "angry": 19,
+    "negative": 61,
+    "spam": 1,
+    "needs_response": 35
   },
   "thematic_categories_non_exclusive": {
-    "ethics_safety_governance": 1,
-    "questions_clarification": 0,
-    "praise_support": 0,
-    "criticism_complaint": 0
+    "ethics_safety_governance": 816,
+    "questions_clarification": 3763,
+    "praise_support": 1594,
+    "criticism_complaint": 924
   },
   "ethics_subcategories_non_exclusive": {
-    "alignment": 0,
-    "censorship_limits": 0,
-    "morality_ethics": 0,
-    "bias_fairness": 1,
-    "privacy_surveillance": 0,
-    "safety_harm": 1
+    "alignment": 175,
+    "censorship_limits": 241,
+    "morality_ethics": 184,
+    "bias_fairness": 382,
+    "privacy_surveillance": 14,
+    "safety_harm": 259
   }
 }
